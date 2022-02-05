@@ -1,8 +1,11 @@
-# Use the latest Ubuntu image as a parent
-FROM ubuntu:focal
-MAINTAINER "Johan Pienaar" <johan@pienaarfamilie.nl>
+## Dockerfile for Webmin 
 
-ENV DEBIAN_FRONTEND=noninteractive TZ=Europe/Amsterdam
+# Use the latest Ubuntu image as a parent
+FROM arm64v8/ubuntu:latest
+MAINTAINER "Juha Antikainen" <jussi.antikainen@gmail.com>
+
+# Remember to change your TZ
+ENV DEBIAN_FRONTEND=noninteractive TZ=Europe/Helsinki
 
 # Initial updates and install core utilities
 RUN apt-get update -qq -y && \
