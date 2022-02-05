@@ -1,5 +1,5 @@
 # docker-webmin
-Docker container running Webmin on latest Ubuntu.
+Docker container running Webmin on latest Ubuntu to arm64v8 architecture. For Raspberry Pi 3 and 4.
 
 ## Building the image
 ```
