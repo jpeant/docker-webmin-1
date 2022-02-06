@@ -1,10 +1,10 @@
-# docker-webmin
+# docker-webmin-rpi
 Docker container running Webmin on latest Ubuntu to arm64v8 architecture. For Raspberry Pi 3 and 4.
 
 ## Building the image
 ```
-sudo git clone https://github.com/jpeant/docker-webmin.git
-cd docker-webmin
+sudo git clone https://github.com/jpeant/docker-webmin-rpi.git
+cd docker-webmin-rpi
 sudo docker build -t jpeant/webmin .
 ```
 
